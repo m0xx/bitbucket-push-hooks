@@ -58,7 +58,7 @@ app.post('/', (req, res) => {
 
     if(changeEvent.type === 'branch') {
         const branchName = changeEvent.name;
-        const rawCommand = resolveCommand(resolveRawCommand(config, repositoryName, branchName))
+        const rawCommand = resolveRawCommand(config, repositoryName, branchName);
 
         if(rawCommand !== null) {
             executeRawCommand(rawCommand);

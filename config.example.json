@@ -1,0 +1,5 @@
+{
+  "awesome-repo": {
+      "production-branch": "sh restart-awesome-app.sh"
+  }
+}

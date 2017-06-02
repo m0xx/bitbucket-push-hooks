@@ -1,0 +1,19 @@
+{
+  "name": "bitbucket-push-hooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "bitbucket",
+    "hook"
+  ],
+  "author": "m0xx",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
